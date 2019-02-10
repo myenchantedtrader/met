@@ -1,0 +1,32 @@
+{
+  "binance": {
+    "key": "binance",
+    "name": "Binance",
+    "cors": 1
+  },
+  "bittrex": {
+    "key": "bittrex",
+    "name": "Bittrex",
+    "cors": 1
+  },
+  "okex": {
+    "key": "okex",
+    "name": "OKEx",
+    "cors": 1
+  },
+  "bithumb": {
+    "key": "bithumb",
+    "name": "BitHumb",
+    "cors": 0
+  },
+  "bitfinex": {
+    "key": "bitfinex",
+    "name": "Bitfinex",
+    "cors": 1
+  },
+  "poloniex": {
+    "key": "poloniex",
+    "name": "Poloniex",
+    "cors": 0
+  }
+}

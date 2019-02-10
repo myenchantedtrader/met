@@ -1,0 +1,46 @@
+.order-book-pane {
+  .scroll-container {
+    width: 100%;
+    overflow: hidden;
+    height: 274px;
+
+    .scroll-block {
+      // width: calc(100% + 17px);
+      width: 100%;
+      overflow-x: hidden;
+      overflow-y: auto;
+      height: 274px;
+    }
+  }
+
+  .order-book {
+    display: inline-block;
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+    width: 100%;
+
+    .order-book-item {
+      list-style-type: none;
+      font-size: 11px;
+      border-bottom: 1px solid #afafaf;
+
+      .header {
+        font-size: 12px;
+        text-transform: uppercase;
+        text-align: center;
+      }
+
+      .price {
+        text-align: left;
+      }
+      .total {
+        text-align: right;
+      }
+
+      &:hover {
+        // background: #151515;
+      }
+    }
+  }
+}

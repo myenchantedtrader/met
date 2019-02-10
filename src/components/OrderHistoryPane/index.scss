@@ -1,0 +1,14 @@
+.order-history-pane {
+  .scroll-container {
+    width: 100%;
+    overflow: hidden;
+    height: calc(100vh - 354px);
+
+    .scroll-block {
+      width: 100%;
+      overflow-x: hidden;
+      overflow-y: auto;
+      height: calc(100vh - 354px);
+    }
+  }
+}

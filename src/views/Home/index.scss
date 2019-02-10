@@ -1,0 +1,72 @@
+@import "../../assets/styles/variables/colors.scss";
+
+.home {
+
+  &-welcome {
+    color: $color-main-header;
+    margin: 35px auto;
+  }
+
+  &-top-volumes {
+    color: $color-main-header;
+    margin-bottom: 35px;
+
+    h2 {
+      margin: 0;
+    }
+
+    &-item {
+      text-align: center;
+      margin-bottom: 15px;
+
+      .header {
+        font-size: 14px;
+      }
+
+      .text {
+        color: lighten($color-main-header, 10)
+      }
+    }
+  }
+
+  &-exchanges-board {
+    color: $color-main-header;
+
+    &-item {
+      position: relative;
+      background: linear-gradient(175deg, darken(#7B587B, 25) 0%, darken(#7B587B, 20) 70%, darken(#7B587B, 15) 100%);
+      border: 1px solid darken(#7B587B, 15);
+      min-height: 275px;
+      margin: 5px;
+      padding: 20px 25px 15px;
+
+      .header {
+        font-size: 22px;
+        text-decoration: underline;
+        margin-bottom: 10px;
+      }
+      .text {
+        font-size: 14px;
+        margin-bottom: 25px;
+      }
+      .bottom {
+        position: absolute;
+        bottom: 15px;
+      }
+    }
+  }
+}
+
+.addExchange__block {
+  padding: 0;
+}
+.addExchange__title {
+  color: $color-main-header;
+  text-align: center;
+  text-transform: uppercase;
+}
+.addExchange__form {
+  background: #878787;
+  margin-bottom: 25px;
+  padding: 15px 10%;
+}

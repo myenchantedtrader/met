@@ -1,0 +1,37 @@
+@import "./variables/colors";
+@import "./variables/backgrounds";
+
+body {
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333;
+  // background: linear-gradient(135deg, #100010 0%,#11001e 100%);
+  background: $bg-main;
+}
+
+.app {
+  display: grid;
+  grid-template-rows: 25px auto 26.5px;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  // width: 100%;
+
+  .page {
+    grid-area: main;
+    background: $bg-page-main;
+    width: 100%;
+    padding: 5px;
+    padding-bottom: 15px;
+    margin: 1px 0;
+
+    .green {
+      color: $color-green;
+    }
+    .red {
+      color: $color-red;
+    }
+  }
+}
