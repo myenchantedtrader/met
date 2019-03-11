@@ -11,10 +11,10 @@
   "dependencies": {
     "autobahn": "^18.10.2",
     "axios": "^0.18.0",
-    "binance-api-node": "^0.8.18",
+    "binance-api-node": "^0.8.19",
     "bootstrap": "^4.0.0-beta.3",
     "bootstrap-vue": "^1.4.0",
-    "socketcluster-client": "^14.2.1",
+    "socketcluster-client": "^14.2.2",
     "vue": "^2.6.8",
     "vue-awesome": "^3.4.0",
     "vue-router": "^3.0.2",
@@ -23,7 +23,7 @@
     "websocket": "^1.0.25"
   },
   "devDependencies": {
-    "autoprefixer": "^9.4.9",
+    "autoprefixer": "^9.4.10",
     "babel-core": "^6.22.1",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
@@ -37,7 +37,7 @@
     "copy-webpack-plugin": "^5.0.0",
     "cross-spawn": "^6.0.5",
     "css-loader": "^2.1.1",
-    "eslint": "^5.15.0",
+    "eslint": "^5.15.1",
     "eslint-config-standard": "^12.0.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.1.2",
@@ -68,7 +68,7 @@
     "vue-template-compiler": "^2.6.8",
     "webpack": "^4.29.6",
     "webpack-bundle-analyzer": "^3.1.0",
-    "webpack-dev-middleware": "^3.6.0",
+    "webpack-dev-middleware": "^3.6.1",
     "webpack-hot-middleware": "^2.16.1",
     "webpack-merge": "^4.2.1"
   },
