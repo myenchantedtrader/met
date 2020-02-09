@@ -57,7 +57,7 @@
     "opn": "^6.0.0",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "ora": "^3.2.0",
-    "rimraf": "^3.0.0",
+    "rimraf": "^3.0.2",
     "sass-loader": "^7.1.0",
     "selenium-server": "^3.0.1",
     "semver": "^5.3.0",
